@@ -1,4 +1,5 @@
 def fizz_buzz(num):
+    # % means divisible by
     if (num % 5 == 0 and num % 3 == 0):
         print("FizzBuzz")
     elif (num % 5) == 0:
